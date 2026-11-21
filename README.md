@@ -248,3 +248,31 @@ The analysis identified six customer segments with distinct characteristics. Thr
 The key business insight is that effective customer marketing requires understanding not only how much customers spend, but also how they purchase and how they have responded to previous campaigns.
 
 By combining machine learning with business intelligence, this project provides a structured approach to customer prioritisation and segment-specific marketing planning.
+
+## 16. Visual Results
+
+The following visualisations highlight customer spending patterns, feature relationships, cluster selection, customer segments and campaign response behaviour.
+
+### 1. Customer Spending Distribution
+
+![Customer Spending Distribution](images/01_customer_spending_distribution.png)
+
+### 2. Customer Feature Correlation
+
+![Customer Feature Correlation](images/02_customer_feature_correlation.png)
+
+### 3. K-Means Elbow Method
+
+![K-Means Elbow Method](images/03_kmeans_elbow_method.png)
+
+### 4. Customer Segments — PCA Visualisation
+
+![Customer Segments PCA](images/04_customer_segments_pca.png)
+
+### 5. Segment Value vs Campaign Response
+
+![Segment Value vs Campaign Response](images/05_segment_value_vs_campaign_response.png)
+
+### 6. Campaign Acceptance by Marital Status
+
+![Campaign Acceptance by Marital Status](images/06_campaign_acceptance_by_marital_status.png)
