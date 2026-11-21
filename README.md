@@ -211,25 +211,7 @@ Campaign strategies should be validated through controlled experiments before in
 | `Customer_segmentation.ipynb` | Data cleaning, exploratory analysis, feature engineering, K-Means clustering and PCA visualisation |
 | `Customer_Segmentation_Business_Intelligence.ipynb` | Application of the saved model, customer segment performance, campaign analysis and business recommendations |
 
-## 13. How to Run the Project
-
-1. Clone or download this repository.
-2. Install the required Python libraries.
-3. Obtain the original customer dataset.
-4. Place `customer_segmentation.csv` in the working directory.
-5. Ensure `kmeans_model.pkl` and `scaler.pkl` are available for the Business Intelligence notebook.
-6. Open the notebooks in Jupyter Notebook or JupyterLab.
-7. Run the cells in the required sequence.
-
-Install the main dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn joblib jupyter
-```
-
-**Note:** The original dataset and saved model files are not included in the repository yet. They must be made available before running the complete workflow.
-
-## 14. Limitations
+## 13. Limitations
 
 - The analysis is based on historical customer information.
 - Twenty-four records had missing income values and were not assigned to clusters.
@@ -239,7 +221,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib jupyter
 - Profitability cannot be determined without product costs and profit margins.
 - Marketing recommendations require validation using controlled experiments.
 
-## 15. Conclusion
+## 14. Conclusion
 
 This project demonstrates how customer segmentation can move beyond grouping customers by demographics and support practical business decisions through purchasing behaviour, spending patterns and campaign responsiveness.
 
@@ -249,7 +231,7 @@ The key business insight is that effective customer marketing requires understan
 
 By combining machine learning with business intelligence, this project provides a structured approach to customer prioritisation and segment-specific marketing planning.
 
-## 16. Visual Results
+## 15. Visual Results
 
 The following visualisations highlight customer spending patterns, feature relationships, cluster selection, customer segments and campaign response behaviour.
 
